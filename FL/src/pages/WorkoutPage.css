@@ -1,0 +1,52 @@
+.workout-page {
+  background-color: #e0f7fa; /* Background color: light sky-blue */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.workout-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workout-card {
+  width: 300px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.workout-card:hover {
+  transform: translateY(-5px);
+}
+
+.workout-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.workout-card h3 {
+  margin-bottom: 8px;
+}
+
+.workout-card p {
+  color: #666;
+}
+
+/* .workout-page {
+    background-color: #87CEEB; /* Sky blue background */
+    /* padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .workout-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */ 
